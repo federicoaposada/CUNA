@@ -1,0 +1,157 @@
+/* selector universal */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    text-decoration: none;
+
+}
+
+
+
+/* configuración de fondo y línea hr */
+
+
+
+body {
+
+    background-color: #E7E7E7;
+
+    color: #333333;
+
+    font-family: "Encode Sans", sans-serif;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    line-height: 18px;
+
+    padding: 8px;
+
+}
+
+
+
+hr {
+
+    border: 0.4px solid #CECECE;
+
+    margin: 8px 0px 20px;
+
+}
+
+
+
+/* contenedor de card */
+
+
+
+.contenedor {
+
+    background: #FFFFFF;
+
+    border: 1px solid #CECECE;
+
+    border-radius: 0.3rem;
+
+    display: inline-block;
+
+    flex-direction: column;
+
+    height: 218px;
+
+    padding: 20px 28px;
+
+    width: 488px;
+
+}
+
+
+
+/* título de card */
+
+
+
+.titulo p {
+
+    color: #808080;
+
+    font-size: 16px;
+
+    padding-bottom: 36px;
+
+    line-height: 20px;
+
+}
+
+
+
+/* información de card */
+
+
+
+.infoCard {
+
+    display: flex;
+
+    flex-direction: row;
+
+    padding-bottom: 16px;
+
+}
+
+
+
+/* botónes */
+
+
+
+.botones {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    gap: 24px;
+
+    line-height: 24px;
+
+
+}
+
+.normal a:hover{
+
+    background: #A7CBEA;
+
+}
+
+.botonSecundario{
+
+    opacity: 0.5;
+
+}
+
+.botonPrimario,
+.botonSecundario {
+
+    border-radius: 5px;
+
+    color: #004F90;
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    padding: 4px 16px;
+
+    font-weight: 700;
+
+}

@@ -1,0 +1,100 @@
+/* importé la fuente de íconos desde Font Awesome */
+
+@import url("https://site-assets.fontawesome.com/releases/v6.1.0/css/all.css");
+
+/* selectiores universales */
+
+* {
+    font-family: "Encode Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* configuración de fondo */
+
+.contenedor {
+    background-color: #E7E7E7;
+    color: #333333;
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 500;
+    height: 100vh;
+    justify-content: center;
+    line-height: 1.1rem;
+    padding: 8px;
+}
+
+/* tamaño de la caja contenedora */
+
+.caja {
+    height: 169px;
+    width: 318px;
+}
+
+.cajas{
+    display: flex;
+    justify-content: space-between;
+    width: 1108px;
+}
+
+/* configuración de ícono y textos */
+
+.fa-regular {
+    color: #fff;
+    font-size: 33.86px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-width: 100%;
+}
+
+.textos h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 0px 49px;
+}
+
+.textos p {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* configuración de encabezado y cuerpo de la tarjeta */
+
+.fondoVerde {
+    align-items: center;
+    background-color: #2E7D33;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    height: 62px;
+    justify-content: center;
+}
+
+.fondoBlanco {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0px 0px 8px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px 0px;
+}
+
+/* responsive */
+
+@media screen and (min-width: 1367px) {
+
+    .cajas{
+        width: 1294px;
+    }
+
+    .caja {
+        width: 411px;
+    }
+
+}

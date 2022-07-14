@@ -1,0 +1,123 @@
+/* importé la fuente de Font Awesome */
+
+ 
+
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+ 
+
+/* configuración de fondo y línea hr */
+
+ 
+
+body {
+
+    background-color: #E7E7E7;
+
+    color: #333333;
+
+    font-family: "Encode Sans", sans-serif;
+
+    font-size: 0.9rem;
+
+    font-weight: 500;
+
+    line-height: 1.1rem;
+
+}
+
+ 
+
+hr {
+
+    border: 0.4px solid #CECECE;
+
+}
+
+ 
+
+/* contenedor de menú de usuario */
+
+ 
+
+.contenedor {
+
+    background: #FFFFFF;
+
+    border: 1px solid #CECECE;
+
+    border-radius: 0.3rem;
+
+    display: inline-block;
+
+    flex-direction: column;
+
+    height: 136px;
+
+    padding: 16px;
+
+}
+
+ 
+
+/* espaciado entre objetos */
+
+ 
+
+.espacio {
+
+    margin: 0%;
+
+    padding-left: 8px;
+
+}
+
+ 
+
+/* configuración de ícono */
+
+ 
+
+.fa-regular {
+
+    padding: 0 2.85px;
+
+}
+
+ 
+
+.fa-user {
+
+    font-size: 1rem;
+
+}
+
+ 
+
+/* título del menú e ícono */
+
+ 
+
+.infoUsuario {
+
+    padding-bottom: 6px;
+
+    padding-top: 3px;
+
+}
+
+ 
+
+/* información del usuario */
+
+ 
+
+.menuUsuario {
+
+    display: flex;
+
+    flex-direction: row;
+
+    padding-top: 3px;
+
+}
